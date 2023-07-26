@@ -18,5 +18,5 @@
 
 <script lang="ts" setup>
 const appleDownloadURL = 'itms-apps://itunes.apple.com/app/id6444109404'
-const chromeDownloadURL = 'https://chrome.google.com/webstore/detail/planet-tab/jcedhcihkblmpjhkbjobchnonaackgjl'
+const chromeDownloadURL = 'https://chrome.google.com/webstore/detail/推特助手/bfliajokeloclanhljkkahefonnphilj'
 </script>
