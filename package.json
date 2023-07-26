@@ -1,5 +1,5 @@
 {
-  "name": "planet-tab",
+  "name": "helper-for-twitter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,7 +15,6 @@
   },
   "devDependencies": {
     "@types/animejs": "^3.1.6",
-    "@types/three": "^0.144.0",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-typescript": "~5.0.0",
