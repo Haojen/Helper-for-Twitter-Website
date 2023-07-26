@@ -25,7 +25,7 @@
                 <router-link to="/" class="mx-2 border-b-4 border-transparent" :class="routerTargetName === 'home' && 'border-gray-400'">Home</router-link>
                 <router-link to="help" class="mx-2 border-b-4 border-transparent" :class="routerTargetName === 'help' && 'border-gray-400'">Help</router-link>
                 <router-link to="privacy" class="mx-2 border-b-4 border-transparent" :class="routerTargetName === 'privacy' && 'border-gray-400'">Privacy</router-link>
-                <a href="https://github.com/Haojen/planet-tab" class="mx-2 flex justify-center items-center border-b-4 border-transparent">
+                <a :href="projectGithubLink" class="mx-2 flex justify-center items-center border-b-4 border-transparent">
                     <span class="ml-1">Github</span>
                 </a>
             </div>
@@ -37,4 +37,6 @@
 </template>
 <script lang="ts" setup>
 import { routerTargetName } from "@/reactiveConsts";
+
+const projectGithubLink = "https://github.com/Haojen/Helper-for-Twitter"
 </script>
